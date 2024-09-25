@@ -5,8 +5,8 @@ const footer = () => {
     <div>
       <ul>
         <li>Icon 1</li>
-        <li>footer 2</li>
-        <li>footer 3</li>
+        <li>Icon 2</li>
+        <li>Icon 3</li>
       </ul>
     </div>
   )
