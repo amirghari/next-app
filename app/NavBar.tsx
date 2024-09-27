@@ -7,7 +7,10 @@ const NavBar = () => {
   return (
     <>
       {status === 'unauthenticated' && (
-        <Link href="/api/auth/signin">Sign in</Link>
+        <div className="flex space-x-2">
+          <Link href="/api/auth/signin">Sign in</Link>
+          <Link href="/api/auth/new-user">Register</Link>
+        </div>
       )}
       {status === 'authenticated' && (
         <div>
